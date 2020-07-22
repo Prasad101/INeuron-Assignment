@@ -1,0 +1,15 @@
+TO install all library from requirment file use follwoing command into
+terminal:
+		pip install -r requirements.txt
+		
+--------------------------------------------------------------
+
+TO get list of libraries runing in environment:
+		pip freeze
+
+To save this in txt format
+		pip freeze > requirements.txt
+
+--------------------------------------------------------------
+     cf login -a https://api.run.pivotal.io
+     cf push
